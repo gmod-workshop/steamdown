@@ -1,10 +1,13 @@
 {
   "name": "@gmod-workshop/steamdown",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert Markdown to Steam BBCode",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "bin": {
+    "steamdown": "dist/cli.js"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -17,7 +20,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup src/index.ts src/cli.ts",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
@@ -38,6 +41,9 @@
   },
   "dependencies": {
     "marked": "^15.0.7"
+  },
+  "optionalDependencies": {
+    "commander": "^13.1.0"
   },
   "tsup": {
     "format": [
