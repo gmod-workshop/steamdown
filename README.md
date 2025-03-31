@@ -58,3 +58,9 @@ const bbcode = await converter.convert('paragraph');
 - Definition List
 - Abbreviation
 - Footnote
+
+## Reference
+
+The following references were used to create this library. If you believe any of the information is incorrect, please open an issue.
+
+- [Steam BBCode](https://steamcommunity.com/sharedfiles/filedetails/?id=2807121939)
