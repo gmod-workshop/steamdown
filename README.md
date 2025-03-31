@@ -1,5 +1,7 @@
 # steamdown
 
+[![Test](https://github.com/gmod-workshop/steamdown/actions/workflows/test.yml/badge.svg)](https://github.com/gmod-workshop/steamdown/actions/workflows/test.yml)
+
 Convert Markdown to Steam BBCode.
 
 ## Installation
