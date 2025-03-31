@@ -47,5 +47,13 @@
     "dts": true,
     "clean": true,
     "sourceMap": true
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmod-workshop/steamdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmod-workshop/steamdown/issues"
+  },
+  "homepage": "https://github.com/gmod-workshop/steamdown#readme"
 }
